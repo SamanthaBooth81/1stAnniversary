@@ -1,0 +1,93 @@
+/* Landing Image Styling */
+#landing_img{
+    width: 100%; 
+    max-height: 10%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Landing header styling */
+#welcome {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#header_position {
+    text-align: center; 
+    padding-top: 20%; 
+    padding-left: 25%;
+}
+
+
+.header-text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.header-font {
+    font-family: 'Tangerine', serif;
+    font-size: 130px;
+}
+
+/* Initial Message Styling */
+
+.message {
+    background-color: #042e20;
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* Photo Album Stylling */
+
+#firstyear_photos{
+    background-color: #042e20;
+}
+
+/* Responsive styling */
+
+@media screen and (max-width: 960px){
+        /* header font */
+        .header-font {
+            font-size: 100px;
+        }
+}
+
+@media screen and (max-width: 679px) {
+    /* header font */
+    .header-font {
+        font-size: 50px;
+    }
+
+    .italiana-regular {
+        font-size: 15px;
+      }
+
+}
+
+@media screen and (max-width: 550px) {
+    /* header font */
+    .header-font {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    /* header font */
+    .header-font {
+        font-size: 30px;
+    }
+
+}
